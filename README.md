@@ -7,6 +7,7 @@
 $ npm install
 
 # serve with hot reload at localhost:3000
+$ cd test
 $ npm run dev
 
 
