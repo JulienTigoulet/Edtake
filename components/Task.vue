@@ -37,9 +37,7 @@ table,td{
     border: 1px solid #333;
     overflow: auto;
 }
-
 .containerTask{
     width:500px;
 }
-
 </style>

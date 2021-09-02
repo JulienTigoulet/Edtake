@@ -13,17 +13,6 @@
           :end="task._end">
           </Task> 
     </div>
-    <!-- <form>
-      <label for="name">Nom de la tâche</label>
-      <input type="name" ref="name">
-      <label for="start"> Début de la tâche</label>
-      <input type="date" ref="start">
-      <label for="end">Fin de la tâche</label>
-      <input type="date" ref="end">
-      <label for="depencies">Dépendant d'une tâche</label>
-      <input type="texte" ref="depencies" placeholder="utiliser le nom d'une tâche déjà existante">
-        <button @click.prevent="addTask()">Ajout d'une tâche</button>
-    </form> -->
     <FrappeGantt
     :tasks="tasks"/>
   </div>
@@ -31,18 +20,6 @@
 
 <script>
 export default {
-  // methods:{
-  //   addTask(){  
-  //     this.tasks.push ({
-  //       name : this.$refs.name.value,
-  //       start : this.$refs.name.value,
-  //       end : this.$refs.name.value,
-  //       id : this.$refs.name.value,
-  //       depencies : this.$refs.name.value,
-  //       _start:""
-  //     })
-  //   }
-  // },
   data() { 
     return {
       tasks: [
