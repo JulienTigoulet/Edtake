@@ -1,13 +1,14 @@
 # Phase.Test
 
 ## Build Setup
-
+Ouvrir le dossier test avec un logiciel de code
 ```bash
 # install dependencies
+
 $ npm install
 
 # serve with hot reload at localhost:3000
-$ cd test
+
 $ npm run dev
 
 
