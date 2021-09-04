@@ -67,4 +67,8 @@ export default {
   display: flex;
   justify-content: center;
 }
+
+#containerTasks{
+  border-top: 0.1px solid rgb(197, 169, 169);
+}
 </style>

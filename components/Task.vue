@@ -39,5 +39,6 @@ table,td{
 }
 .containerTask{
     width:500px;
+    font-size: smaller;
 }
 </style>

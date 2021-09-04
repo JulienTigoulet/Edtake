@@ -24,3 +24,8 @@ mounted() {
   },  
 })
 </script>
+<style>
+#containerGantt{
+ margin-right: 20px;
+}
+</style>
