@@ -30,7 +30,7 @@ export default {
         end: '2021-8-28',
         progress: 10,
         dependencies: '',
-        _start: "",
+        _start: '',
       },
       {
         id: 'task 2',

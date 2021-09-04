@@ -27,7 +27,7 @@ export default {
     props:{
         task: String,
         end: Date,
-        start: Date,
+        start: '',
         progress: Number,
     },
 }
@@ -35,7 +35,6 @@ export default {
 <style>
 table,td{
     border: 1px solid #333;
-    overflow: auto;
 }
 .containerTask{
     width:500px;
