@@ -16,7 +16,7 @@
         <input type="text" ref="depencies" placeholder="Ecrire le nom d'une tâche" v-model="dependencies">
 
         <label for="progress">Progression</label>
-        <input type="number" ref="progress" placeholder="uniquement chiffre" v-model="progress">
+        <input type="number" ref="progress" placeholder="Uniquement chiffre" v-model="progress">
         <div id="buttons">
             <button id="send" v-on:click="submitTask">Créer</button>
             <button id="cancel" v-on:click="seen = false">Annuler</button>

@@ -35,6 +35,6 @@ mounted() {
 #containerGantt{
  margin-right: 20px;
  display: flex;
- flex-direction: column-reverse;
+
 }
 </style>

@@ -27,8 +27,8 @@ export default {
       {
         id: 'Just Do It',
         name: 'Just Do It',
-        start: '2021-8-23',
-        end: '2021-8-28',
+        start: '2021-9-1',
+        end: '2021-9-2',
         progress: 10,
         dependencies: '',
         _start: '',
@@ -36,8 +36,8 @@ export default {
       {
         id: 'Do It',
         name: 'Do It ',
-        start:'2021-8-24',
-        end: '2021-8-25',
+        start:'2021-9-2',
+        end: '2021-9-4',
         dependencies:'Just Do It',
         progress:0,
         _start: "",
@@ -45,8 +45,8 @@ export default {
       {
         id: 'Well done',
         name: 'Well done',
-        start:'2021-9-1',
-        end: '2021-9-2',
+        start:'2021-9-5',
+        end: '2021-9-6',
         dependencies:'',
         progress:0,
         _start: "",
@@ -62,7 +62,7 @@ export default {
   flex-direction: row-reverse;
 }
 #containerGantt{
-  width: 500px;
+  width: 800px;
 }
 #title{
   display: flex;
