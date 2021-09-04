@@ -20,11 +20,12 @@
 
 <script>
 export default {
+
   data() { 
     return {
       tasks: [
       {
-        id: 'task 1',
+        id: 'Just Do It',
         name: 'Just Do It',
         start: '2021-8-23',
         end: '2021-8-28',
@@ -33,16 +34,16 @@ export default {
         _start: '',
       },
       {
-        id: 'task 2',
+        id: 'Do It',
         name: 'Do It ',
         start:'2021-8-24',
         end: '2021-8-25',
-        dependencies:'task 1',
+        dependencies:'Just Do It',
         progress:0,
         _start: "",
       },
       {
-        id: 'task 3',
+        id: 'Well done',
         name: 'Well done',
         start:'2021-9-1',
         end: '2021-9-2',

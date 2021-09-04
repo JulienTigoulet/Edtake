@@ -1,6 +1,7 @@
 <template>
     <div id="containerGantt">
       <svg id="gantt"></svg>
+      <AddTaskButton  @newTask="addNewTask"/>
     </div>
 </template>
 <script lang="ts">
@@ -21,11 +22,19 @@ mounted() {
         header_height: 50,
       })
     },
+    addNewTask(task){
+      console.log(task)
+      this.tasks.push(task)
+      this.NewGanttChart()
+    },
+  
   },  
 })
 </script>
 <style>
 #containerGantt{
  margin-right: 20px;
+ display: flex;
+ flex-direction: column-reverse;
 }
 </style>
