@@ -41,6 +41,7 @@ export default{
     methods:{
         submitTask(){
             const task = {
+                id: this.name,
                 name: this.name,
                 start: this.start,
                 end:  this.end,
